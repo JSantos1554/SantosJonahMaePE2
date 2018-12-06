@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
                                 editAge.getText().toString(),
                                 editGender.getText().toString() );
                         if(isInserted == true)
-                            Toast.makeText(MainActivity.this,"Data inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"Data successfully inserted",Toast.LENGTH_LONG).show();
                         else
-                            Toast.makeText(MainActivity.this,"Data not inserted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this,"Data not successfully inserted",Toast.LENGTH_LONG).show();
                     }
                 }
         );
